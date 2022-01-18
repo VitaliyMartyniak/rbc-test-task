@@ -1,0 +1,32 @@
+.filters {
+  width: 23%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  &__element {
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    cursor: pointer;
+  }
+
+  &__name {
+    margin-left: 5px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
