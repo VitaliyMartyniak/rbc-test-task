@@ -15,6 +15,11 @@ import {MatPaginatorModule} from "@angular/material/paginator";
 import {EffectsModule} from "@ngrx/effects";
 import {metaReducers, reducers} from "./reducers";
 import {PaginationEffects} from "./reducers/pagination/pagination.effects";
+import {MatInputModule} from "@angular/material/input";
+import {MatOptionModule} from "@angular/material/core";
+import {MatSelectModule} from "@angular/material/select";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {FiltersEffects} from "./reducers/filters/filters.effects";
 
 @NgModule({
   declarations: [
@@ -31,8 +36,12 @@ import {PaginationEffects} from "./reducers/pagination/pagination.effects";
     BrowserAnimationsModule,
     MatIconModule,
     StoreModule.forRoot(reducers, {metaReducers}),
-    EffectsModule.forRoot([PaginationEffects]),
-    MatPaginatorModule
+    EffectsModule.forRoot([PaginationEffects, FiltersEffects]),
+    MatPaginatorModule,
+    MatInputModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

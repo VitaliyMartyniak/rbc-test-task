@@ -1,6 +1,8 @@
 <div class="main">
 
-  <app-filters></app-filters>
+  <div class="filters">
+    <app-filters></app-filters>
+  </div>
 
   <div class="catalog">
     <div class="catalog__item" *ngFor="let product of products">
@@ -14,7 +16,9 @@
       <h3 class="item__price">{{product.price | currency}}</h3>
     </div>
 
-    <app-pagination></app-pagination>
+    <div class="catalog__pagination">
+      <app-pagination></app-pagination>
+    </div>
   </div>
 </div>
 

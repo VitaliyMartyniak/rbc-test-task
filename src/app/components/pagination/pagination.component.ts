@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
 import {pageIndexSelector, updatePage} from "../../reducers/pagination/pagination";
 import {PageEvent} from "@angular/material/paginator";
-import {catalogProductsSelector} from "../../reducers/catalog/catalog";
+import {filteredProductsSelector} from "../../reducers/filters/filters";
 
 @Component({
   selector: 'app-pagination',
@@ -16,12 +16,11 @@ export class PaginationComponent implements OnInit {
   constructor(private store: Store) { }
 
   ngOnInit(): void {
-    this.store.select(catalogProductsSelector).subscribe((products) => {
+    this.store.select(filteredProductsSelector).subscribe((products) => {
       this.length = products.length;
     });
     this.store.select(pageIndexSelector).subscribe((pageIndex) => {
       this.pageIndex = pageIndex;
-      console.log('this.page', this.pageIndex);
     });
   }
 
