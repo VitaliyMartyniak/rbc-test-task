@@ -3,20 +3,6 @@
   <app-filters></app-filters>
 
   <div class="catalog">
-<!--    <ng-container>-->
-
-<!--      <div class="catalog__item" *ngFor="let product of result">-->
-<!--        <div class="item__photo" [routerLink]="['/iphone', product.id]">-->
-<!--          <img src="../../assets/img/iphone/{{product.photo}}.jpg" alt="{{product.model}}"/>-->
-<!--        </div>-->
-<!--        <p class="item__title"><span *ngIf="product.condition === 'used'">used</span>-->
-<!--          {{product.model}} {{product.memory}}GB-->
-<!--          <span *ngIf="product.hasTwoSim === 'yes'">Dual SIM</span> ({{product.color}})</p>-->
-<!--        <hr/>-->
-<!--        <h3 class="item__price">{{product.price | currency}}</h3>-->
-<!--        <button class="btn" (click)="addItem(product)">Add to Cart</button>-->
-<!--      </div>-->
-
     <div class="catalog__item" *ngFor="let product of products">
       <div class="item__photo">
         <img src="../../assets/img/{{product.picture}}.jpg" />
@@ -26,13 +12,9 @@
       </p>
       <hr/>
       <h3 class="item__price">{{product.price | currency}}</h3>
-<!--      <button class="btn" (click)="addItem(product)">Add to Cart</button>-->
     </div>
 
-<!--      <span *ngIf="!result.length">No items found</span>-->
-<!--      <pagination-controls *ngIf="result.length" class="catalog__pagination"-->
-<!--                           (pageChange)="changeCurrentPage($event)"></pagination-controls>-->
-<!--    </ng-container>-->
+    <app-pagination></app-pagination>
   </div>
 </div>
 

@@ -10,8 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from "@angular/material/icon";
 import { FiltersComponent } from './components/filters/filters.component';
 import { StoreModule } from '@ngrx/store';
-import {cartReducer} from "./store/cart/cart.reducer";
-import {catalogReducer} from "./store/catalog/catalog.reducer";
+import { PaginationComponent } from './components/pagination/pagination.component';
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {EffectsModule} from "@ngrx/effects";
+import {metaReducers, reducers} from "./reducers";
+import {PaginationEffects} from "./reducers/pagination/pagination.effects";
 
 @NgModule({
   declarations: [
@@ -20,13 +23,16 @@ import {catalogReducer} from "./store/catalog/catalog.reducer";
     CatalogComponent,
     CartComponent,
     FiltersComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    StoreModule.forRoot({cartStore: cartReducer, catalogStore: catalogReducer})
+    StoreModule.forRoot(reducers, {metaReducers}),
+    EffectsModule.forRoot([PaginationEffects]),
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
