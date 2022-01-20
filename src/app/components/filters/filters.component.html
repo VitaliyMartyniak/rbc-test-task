@@ -14,8 +14,8 @@
   </mat-form-field>
 </div>
 
-<!--<div class="filter">-->
-<!--  <p *ngFor="let option of prices; let index = index">-->
-<!--    <mat-checkbox [checked]="option.checked" (change)="changePriceSelection($event, index)">{{ option.viewValue }}</mat-checkbox>-->
-<!--  </p>-->
-<!--</div>-->
+<div class="filter">
+  <p *ngFor="let option of prices">
+    <mat-checkbox [checked]="option.checked" (change)="changePriceSelection($event, option.viewValue)">{{ option.viewValue }}</mat-checkbox>
+  </p>
+</div>

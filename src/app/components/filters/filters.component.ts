@@ -1,7 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
-import {productTypeSelector, searchSelector, setSearch, setType} from "../../reducers/filters/filters";
+import {
+  pricesSelector,
+  productTypeSelector,
+  searchSelector,
+  setPrices,
+  setSearch,
+  setType
+} from "../../reducers/filters/filters";
 import {Price} from "../../interfaces/products";
+import {MatCheckboxChange} from "@angular/material/checkbox";
+import {FiltersService} from "./filters.service";
 
 @Component({
   selector: 'app-filters',
@@ -38,19 +47,19 @@ export class FiltersComponent implements OnInit {
 
   search = '';
 
-  constructor(private store: Store) { }
+  constructor(private store: Store, private filtersService: FiltersService) { }
 
   ngOnInit(): void {
-    // this.store.select(pricesSelector).subscribe((prices) => {
-    //   this.prices = prices;
-    //   console.log('this.prices', this.prices);
-    // });
+    this.store.select(pricesSelector).subscribe((prices) => {
+      this.prices = prices;
+    });
     this.store.select(searchSelector).subscribe((search) => {
       this.search = search;
     });
     this.store.select(productTypeSelector).subscribe((type) => {
       this.productType = type;
     });
+    this.filtersService.init();
   }
 
   searchProducts(value: string) {
@@ -61,12 +70,7 @@ export class FiltersComponent implements OnInit {
     this.store.dispatch(setType({productType: value}));
   }
 
-  // changePriceSelection($event: MatCheckboxChange, index: number) {
-  //   const mutatedPrices = [...this.prices];
-  //   mutatedPrices[index].checked = $event.checked;
-  //   // const clone = {
-  //   //   prices: Object.assign({}, mutatedPrices)
-  //   // };
-  //   this.store.dispatch(setPrices({prices: mutatedPrices}));
-  // }
+  changePriceSelection(event: MatCheckboxChange, viewValue: string) {
+    this.store.dispatch(setPrices({viewValue}));
+  }
 }

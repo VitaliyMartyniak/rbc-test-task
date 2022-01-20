@@ -60,8 +60,7 @@ export const setFilteredProducts = createAction('[FILTERS] set filtered products
   props<{filteredProducts: Product[]}>()
 );
 export const setPrices = createAction('[FILTERS] set prices',
-  // props<{checked: boolean, index: number}>()
-  props<{prices: Price[]}>()
+  props<{viewValue: string}>()
 );
 export const setType = createAction('[FILTERS] set type',
   props<{productType: string}>()
@@ -76,14 +75,13 @@ export const filtersReducer = createReducer(
     ...state,
     filteredProducts: action.filteredProducts
   })),
-  on(setPrices, (state, {prices}) => {
-    // const mutatedPrices = [...state.prices];
-    // mutatedPrices[index]['checked'] = checked;
-    return {
-      ...state,
-      prices: prices
-    }
-  }),
+  on(setPrices, (state, {viewValue}) => ({
+    ...state,
+    prices: state.prices.map(price => price.viewValue === viewValue ? {
+      ...price,
+      checked: !price.checked
+    }: price)
+  })),
   on(setType, (state, action) => ({
     ...state,
     productType: action.productType
