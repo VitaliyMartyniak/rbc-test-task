@@ -22,6 +22,10 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import {FiltersEffects} from "./reducers/filters/filters.effects";
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
+import { ProductDetailsModalComponent } from './components/product-details-modal/product-details-modal.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatButtonModule} from "@angular/material/button";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -31,6 +35,7 @@ import { environment } from '../environments/environment';
     CartComponent,
     FiltersComponent,
     PaginationComponent,
+    ProductDetailsModalComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,10 @@ import { environment } from '../environments/environment';
     MatOptionModule,
     MatSelectModule,
     MatCheckboxModule,
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production })
+    StoreDevtoolsModule.instrument({maxAge: 25, logOnly: environment.production}),
+    MatDialogModule,
+    MatButtonModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

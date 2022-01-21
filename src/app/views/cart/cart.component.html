@@ -1,1 +1,46 @@
-<p>cart works!</p>
+<p *ngIf="!products.length">Cart is empty</p>
+<div class="cart" *ngIf="products.length">
+
+  <div class="cart__item" *ngFor="let product of products; index as index">
+
+    <div class="item__photo">
+      <img src="../../assets/img/{{product.picture}}.jpg" alt="{{product.name}}"/>
+    </div>
+
+    <div class="item__info" >
+
+<!--      <p class="item__title" *ngIf="product.hasTwoSim">-->
+<!--        <span *ngIf="product.condition === 'used'">used</span>-->
+<!--        {{product.model}} <span>{{product.memory}}GB-->
+<!--        <span *ngIf="product.hasTwoSim === 'yes'">Dual SIM</span> ({{product.color}})</span>-->
+<!--      </p>-->
+
+<!--      <p class="item__title" *ngIf="product.hasTouchBar">-->
+<!--        {{product.model}} {{product.diagonal}} {{product.memory}} ({{product.color}})-->
+<!--        <span *ngIf="product.hasTouchBar">with Touch Bar</span>-->
+<!--      </p>-->
+
+<!--      <p class="item__title" *ngIf="product.generation">-->
+<!--        Apple Watch Series {{product.generation}} {{product.size}}mm {{product.color}} with-->
+<!--        {{product.strapColor}} {{product.strapSeries}}-->
+<!--      </p>-->
+
+      <p class="item__price">Price per item: {{product.price | currency}}</p>
+      <p class="item__count">Count
+<!--        <input class="item__counter" min="1" value="{{product.countInCart}}" type="number"-->
+<!--               [(ngModel)]="product.countInCart" (change)="this.cartService.changeCartCounter(); calculateTotal()"/>-->
+<!--        : {{product.countInCart * product.price | currency}}-->
+        <input #counter class="item__counter" min="1" value="{{product.countInCart}}" type="number" (change)="changeProductCount(+counter.value, product)" />
+        : {{product.countInCart! * product.price | currency}}
+      </p>
+    </div>
+    <button class="btn" (click)="deleteFromCart(product.id)">Delete Item</button>
+
+  </div>
+
+  <div class="cart__submit">
+    <p class="submit__total">Total: {{calculateTotal() | currency}}</p>
+    <button class="btn submit__button" (click)="submit()">Submit order</button>
+  </div>
+
+</div>

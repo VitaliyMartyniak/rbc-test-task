@@ -19,6 +19,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 1,
     },
     {
       name: 'iPhone',
@@ -29,6 +30,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 2,
     },
     {
       name: 'iPhone',
@@ -39,6 +41,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 3,
     },
     {
       name: 'Samsung',
@@ -49,6 +52,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 4,
     },
     {
       name: 'Samsung',
@@ -59,6 +63,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 5,
     },
     {
       name: 'Samsung',
@@ -69,6 +74,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 6,
     },
     {
       name: 'Bosch Fridge',
@@ -79,6 +85,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 7,
     },
     {
       name: 'Bosch Fridge',
@@ -89,6 +96,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 8,
     },
     {
       name: 'Bosch Fridge',
@@ -99,6 +107,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 9,
     },
     {
       name: 'DOOM',
@@ -109,6 +118,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 10,
     },
     {
       name: 'iPhone',
@@ -119,6 +129,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 11,
     },
     {
       name: 'iPhone',
@@ -129,6 +140,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 12,
     },
     {
       name: 'iPhone',
@@ -139,6 +151,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 13,
     },
     {
       name: 'Samsung',
@@ -149,6 +162,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 14,
     },
     {
       name: 'Samsung',
@@ -159,6 +173,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 15,
     },
     {
       name: 'Samsung',
@@ -169,6 +184,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 16,
     },
     {
       name: 'Bosch Fridge',
@@ -179,6 +195,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 17,
     },
     {
       name: 'Bosch Fridge',
@@ -189,6 +206,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 18,
     },
     {
       name: 'Bosch Fridge',
@@ -199,6 +217,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 19,
     },
     {
       name: 'DOOM',
@@ -209,6 +228,7 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 20
     },
     {
       name: 'DOOM',
@@ -219,19 +239,13 @@ export const initialState: CatalogState = {
       longDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. ' +
         'Aenean sed aliquet ante. Quisque volutpat convallis ipsum.',
       reviews: [],
+      id: 21
     },
   ],
 }
 
 export const catalogReducer = createReducer(
   initialState,
-  // on(setupPagination, state => ({
-  //   ...state
-  // })),
-  // on(updatePage, state => ({
-  //   ...state,
-  //   pageIndex: 1
-  // }))
 );
 
 export const featureSelector = createFeatureSelector<CatalogState>('catalog');

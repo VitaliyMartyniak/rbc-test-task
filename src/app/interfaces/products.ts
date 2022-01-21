@@ -6,6 +6,8 @@ export interface Product {
   type: ProductType,
   longDescription: string,
   reviews: [],
+  id: number,
+  countInCart?: number
 }
 
 export type ProductType = 'phones' | 'TVs' | 'appliances' | 'games'
