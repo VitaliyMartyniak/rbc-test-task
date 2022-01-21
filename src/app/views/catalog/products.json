@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 1
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 2
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 3
+    },
+    {
+      "name": "Samsung",
+      "price": 800,
+      "customerRating": 4,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 4
+    }
+  ]
+}
