@@ -4,6 +4,7 @@ import {Store} from "@ngrx/store";
 import {paginatedProductsSelector} from "../../reducers/pagination/pagination";
 import {MatDialog} from "@angular/material/dialog";
 import {ProductDetailsModalComponent} from "../../components/product-details-modal/product-details-modal.component";
+import {loadProducts} from "../../reducers/catalog/catalog";
 
 @Component({
   selector: 'app-catalog',
@@ -19,6 +20,7 @@ export class CatalogComponent implements OnInit {
     this.store.select(paginatedProductsSelector).subscribe((paginatedProducts) => {
       this.products = paginatedProducts;
     })
+    this.store.dispatch(loadProducts());
   }
 
   openModal(product: Product) {

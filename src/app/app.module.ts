@@ -26,6 +26,7 @@ import { ProductDetailsModalComponent } from './components/product-details-modal
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import {FormsModule} from "@angular/forms";
+import {CatalogEffects} from "./reducers/catalog/catalog.effects";
 
 @NgModule({
   declarations: [
@@ -43,7 +44,7 @@ import {FormsModule} from "@angular/forms";
     BrowserAnimationsModule,
     MatIconModule,
     StoreModule.forRoot(reducers, {metaReducers}),
-    EffectsModule.forRoot([PaginationEffects, FiltersEffects]),
+    EffectsModule.forRoot([PaginationEffects, FiltersEffects, CatalogEffects]),
     MatPaginatorModule,
     MatInputModule,
     MatOptionModule,
