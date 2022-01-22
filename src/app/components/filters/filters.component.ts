@@ -25,19 +25,19 @@ export class FiltersComponent implements OnInit {
       viewValue: 'All'
     },
     {
-      value: 'appliances',
+      value: 'appliance',
       viewValue: 'Appliances'
     },
     {
-      value: 'phones',
+      value: 'phone',
       viewValue: 'Phones'
     },
     {
-      value: 'games',
+      value: 'game',
       viewValue: 'Video Games'
     },
     {
-      value: 'TVs',
+      value: 'tv',
       viewValue: 'TVs'
     },
   ]

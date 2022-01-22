@@ -5,7 +5,7 @@
       "price": 600,
       "customerRating": 5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 1
@@ -15,7 +15,7 @@
       "price": 700,
       "customerRating": 5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 2
@@ -25,7 +25,7 @@
       "price": 300,
       "customerRating": 4,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 3
@@ -35,7 +35,7 @@
       "price": 150,
       "customerRating": 3,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 4
@@ -45,7 +45,7 @@
       "price": 250,
       "customerRating": 3.5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 5
@@ -55,7 +55,7 @@
       "price": 1000,
       "customerRating": 3,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 6
@@ -65,7 +65,7 @@
       "price": 400,
       "customerRating": 5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 7
@@ -75,7 +75,7 @@
       "price": 800,
       "customerRating": 5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 8
@@ -85,7 +85,7 @@
       "price": 1200,
       "customerRating": 4.5,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 9
@@ -95,7 +95,7 @@
       "price": 400,
       "customerRating": 4,
       "picture": "phone",
-      "type": "phones",
+      "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 10
@@ -105,7 +105,7 @@
       "price": 1500,
       "customerRating": 4.5,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 11
@@ -115,7 +115,7 @@
       "price": 800,
       "customerRating": 4,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 12
@@ -125,7 +125,7 @@
       "price": 2000,
       "customerRating": 5,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 13
@@ -135,7 +135,7 @@
       "price": 2300,
       "customerRating": 4.5,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 14
@@ -145,7 +145,7 @@
       "price": 1200,
       "customerRating": 2,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 15
@@ -155,7 +155,7 @@
       "price": 1600,
       "customerRating": 3,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 16
@@ -165,7 +165,7 @@
       "price": 500,
       "customerRating": 3,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 17
@@ -175,7 +175,7 @@
       "price": 300,
       "customerRating": 1,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 18
@@ -185,7 +185,7 @@
       "price": 550,
       "customerRating": 3,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 19
@@ -195,7 +195,7 @@
       "price": 400,
       "customerRating": 4,
       "picture": "tv",
-      "type": "TVs",
+      "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 20
@@ -205,7 +205,7 @@
       "price": 5500,
       "customerRating": 5,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 21
@@ -215,7 +215,7 @@
       "price": 3800,
       "customerRating": 4,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 22
@@ -225,7 +225,7 @@
       "price": 2000,
       "customerRating": 3,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 23
@@ -235,7 +235,7 @@
       "price": 4100,
       "customerRating": 4.5,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 24
@@ -245,7 +245,7 @@
       "price": 6000,
       "customerRating": 4,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 25
@@ -255,7 +255,7 @@
       "price": 500,
       "customerRating": 5,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 26
@@ -265,7 +265,7 @@
       "price": 1500,
       "customerRating": 4,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 27
@@ -275,7 +275,7 @@
       "price": 450,
       "customerRating": 1,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 28
@@ -285,7 +285,7 @@
       "price": 700,
       "customerRating": 3,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 29
@@ -295,7 +295,7 @@
       "price": 950,
       "customerRating": 4,
       "picture": "appliance",
-      "type": "appliances",
+      "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 30
@@ -305,7 +305,7 @@
       "price": 100,
       "customerRating": 5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 31
@@ -315,7 +315,7 @@
       "price": 150,
       "customerRating": 4,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 32
@@ -325,7 +325,7 @@
       "price": 110,
       "customerRating": 5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 33
@@ -335,7 +335,7 @@
       "price": 140,
       "customerRating": 4.5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 34
@@ -345,7 +345,7 @@
       "price": 180,
       "customerRating": 3,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 35
@@ -355,7 +355,7 @@
       "price": 200,
       "customerRating": 5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 36
@@ -365,7 +365,7 @@
       "price": 100,
       "customerRating": 4,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 37
@@ -375,7 +375,7 @@
       "price": 270,
       "customerRating": 5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 38
@@ -385,7 +385,7 @@
       "price": 165,
       "customerRating": 4.5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 39
@@ -395,7 +395,7 @@
       "price": 350,
       "customerRating": 5,
       "picture": "game",
-      "type": "games",
+      "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 40

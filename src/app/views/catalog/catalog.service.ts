@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-// @ts-ignore
 import data from './products.json';
 import {Product} from "../../interfaces/products";
 
