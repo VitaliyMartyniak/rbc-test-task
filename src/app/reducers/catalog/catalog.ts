@@ -1,9 +1,5 @@
 import {createAction, createFeatureSelector, createReducer, createSelector, on, props} from "@ngrx/store";
 import {Product} from "../../interfaces/products";
-import {setPaginatedProducts} from "../pagination/pagination";
-
-// export const setupPagination = createAction('[PAGINATION] setup pagination');
-// export const updatePage = createAction('[PAGINATION] update page');
 
 export interface CatalogState {
   catalogProducts: Product[];

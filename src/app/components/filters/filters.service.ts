@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
 import {Store} from "@ngrx/store";
-import {pageIndexSelector} from "../../reducers/pagination/pagination";
 import {Price, Product} from "../../interfaces/products";
 import {pricesSelector, productTypeSelector, searchSelector, setFilteredProducts} from "../../reducers/filters/filters";
 import {catalogProductsSelector} from "../../reducers/catalog/catalog";
@@ -26,6 +25,7 @@ export class FiltersService {
 
     this.store.select(catalogProductsSelector).subscribe((products) => {
       this.catalogProducts = products;
+      this.filterCatalogProducts();
     });
     this.store.select(pricesSelector).subscribe((prices) => {
       this.prices = prices;
@@ -46,7 +46,6 @@ export class FiltersService {
       }
     });
 
-    this.filterCatalogProducts();
     this.isInit = true;
   }
 
@@ -83,7 +82,7 @@ export class FiltersService {
   }
 
   private filterByProductType(): void {
-    if (this.productType === 'all') {
+    if (!this.productType || this.productType === 'all') {
       return
     }
     this.filteredProducts = this.filteredProducts.filter(product => product.type === this.productType)

@@ -27,6 +27,9 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import {FormsModule} from "@angular/forms";
 import {CatalogEffects} from "./reducers/catalog/catalog.effects";
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import {MatSnackBarModule} from "@angular/material/snack-bar";
+import {CartEffects} from "./reducers/cart/cart.effects";
 
 @NgModule({
   declarations: [
@@ -37,6 +40,7 @@ import {CatalogEffects} from "./reducers/catalog/catalog.effects";
     FiltersComponent,
     PaginationComponent,
     ProductDetailsModalComponent,
+    SnackbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,7 @@ import {CatalogEffects} from "./reducers/catalog/catalog.effects";
     BrowserAnimationsModule,
     MatIconModule,
     StoreModule.forRoot(reducers, {metaReducers}),
-    EffectsModule.forRoot([PaginationEffects, FiltersEffects, CatalogEffects]),
+    EffectsModule.forRoot([PaginationEffects, FiltersEffects, CatalogEffects, CartEffects]),
     MatPaginatorModule,
     MatInputModule,
     MatOptionModule,
@@ -54,6 +58,7 @@ import {CatalogEffects} from "./reducers/catalog/catalog.effects";
     MatDialogModule,
     MatButtonModule,
     FormsModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

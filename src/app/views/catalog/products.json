@@ -39,6 +39,86 @@
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 4
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 5
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 6
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 7
+    },
+    {
+      "name": "Samsung",
+      "price": 800,
+      "customerRating": 4,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 8
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 9
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 10
+    },
+    {
+      "name": "iPhone",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 11
+    },
+    {
+      "name": "Samsung",
+      "price": 800,
+      "customerRating": 4,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 12
     }
   ]
 }

@@ -5,6 +5,7 @@ import {paginatedProductsSelector} from "../../reducers/pagination/pagination";
 import {MatDialog} from "@angular/material/dialog";
 import {ProductDetailsModalComponent} from "../../components/product-details-modal/product-details-modal.component";
 import {loadProducts} from "../../reducers/catalog/catalog";
+import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Component({
   selector: 'app-catalog',
@@ -14,7 +15,7 @@ import {loadProducts} from "../../reducers/catalog/catalog";
 export class CatalogComponent implements OnInit {
   products: Product[] = [];
 
-  constructor(private store: Store, public modal: MatDialog) { }
+  constructor(private snackBar: MatSnackBar, private store: Store, public modal: MatDialog) { }
 
   ngOnInit(): void {
     this.store.select(paginatedProductsSelector).subscribe((paginatedProducts) => {
@@ -30,4 +31,5 @@ export class CatalogComponent implements OnInit {
       },
     });
   }
+
 }

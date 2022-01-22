@@ -5,6 +5,8 @@ import {loadProducts, setCatalogProducts} from "./catalog";
 import {map, mergeMap, Observable, of, pipe, switchMap} from "rxjs";
 import {Product} from "../../interfaces/products";
 import {CatalogService} from "../../views/catalog/catalog.service";
+import {addToCart} from "../cart/cart";
+import {setSnackbarText} from "../notifications/notifications";
 
 @Injectable()
 export class CatalogEffects {
@@ -18,4 +20,16 @@ export class CatalogEffects {
         map((products: Product[]) => setCatalogProducts({catalogProducts: products})
       )
     )))
+
+  addToCart$ = createEffect(
+    () => this.actions$.pipe(
+      ofType(addToCart),
+      map(() => setSnackbarText({text: 'Product added to cart!'})
+      )))
+
+  submitOrder$ = createEffect(
+    () => this.actions$.pipe(
+      ofType(addToCart),
+      map(() => setSnackbarText({text: 'Product added to cart!'})
+      )))
 }
