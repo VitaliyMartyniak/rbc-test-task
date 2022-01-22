@@ -12,6 +12,11 @@ export const initialState: FiltersState = {
   filteredProducts: [],
   prices: [
     {
+      value: [100, 249.99],
+      viewValue: '$100 - $249.99',
+      checked: false,
+    },
+    {
       value: [250, 499.99],
       viewValue: '$250 - $499.99',
       checked: false,

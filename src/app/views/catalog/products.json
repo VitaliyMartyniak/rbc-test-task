@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "name": "iPhone",
-      "price": 200,
+      "name": "Apple iPhone",
+      "price": 600,
       "customerRating": 5,
       "picture": "phone",
       "type": "phones",
@@ -11,8 +11,8 @@
       "id": 1
     },
     {
-      "name": "iPhone",
-      "price": 200,
+      "name": "Samsung",
+      "price": 700,
       "customerRating": 5,
       "picture": "phone",
       "type": "phones",
@@ -21,9 +21,9 @@
       "id": 2
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
+      "name": "Xiaomi",
+      "price": 300,
+      "customerRating": 4,
       "picture": "phone",
       "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
@@ -31,19 +31,19 @@
       "id": 3
     },
     {
-      "name": "Samsung",
-      "price": 800,
-      "customerRating": 4,
-      "picture": "tv",
-      "type": "TVs",
+      "name": "Nokia",
+      "price": 150,
+      "customerRating": 3,
+      "picture": "phone",
+      "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 4
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
+      "name": "Huawei",
+      "price": 250,
+      "customerRating": 3.5,
       "picture": "phone",
       "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
@@ -51,9 +51,9 @@
       "id": 5
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
+      "name": "Motorola",
+      "price": 1000,
+      "customerRating": 3,
       "picture": "phone",
       "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
@@ -61,8 +61,8 @@
       "id": 6
     },
     {
-      "name": "iPhone",
-      "price": 200,
+      "name": "OPPO",
+      "price": 400,
       "customerRating": 5,
       "picture": "phone",
       "type": "phones",
@@ -71,19 +71,19 @@
       "id": 7
     },
     {
-      "name": "Samsung",
+      "name": "OnePlus",
       "price": 800,
-      "customerRating": 4,
-      "picture": "tv",
-      "type": "TVs",
+      "customerRating": 5,
+      "picture": "phone",
+      "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 8
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
+      "name": "Apple iPhone",
+      "price": 1200,
+      "customerRating": 4.5,
       "picture": "phone",
       "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
@@ -91,9 +91,9 @@
       "id": 9
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
+      "name": "Samsung",
+      "price": 400,
+      "customerRating": 4,
       "picture": "phone",
       "type": "phones",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
@@ -101,11 +101,11 @@
       "id": 10
     },
     {
-      "name": "iPhone",
-      "price": 200,
-      "customerRating": 5,
-      "picture": "phone",
-      "type": "phones",
+      "name": "Samsung",
+      "price": 1500,
+      "customerRating": 4.5,
+      "picture": "tv",
+      "type": "TVs",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 11
@@ -119,6 +119,286 @@
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
       "reviews": [],
       "id": 12
+    },
+    {
+      "name": "Sony",
+      "price": 2000,
+      "customerRating": 5,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 13
+    },
+    {
+      "name": "Sony",
+      "price": 2300,
+      "customerRating": 4.5,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 14
+    },
+    {
+      "name": "LG",
+      "price": 1200,
+      "customerRating": 2,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 15
+    },
+    {
+      "name": "LG",
+      "price": 1600,
+      "customerRating": 3,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 16
+    },
+    {
+      "name": "Philips",
+      "price": 500,
+      "customerRating": 3,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 17
+    },
+    {
+      "name": "Philips",
+      "price": 300,
+      "customerRating": 1,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 18
+    },
+    {
+      "name": "Bravis",
+      "price": 550,
+      "customerRating": 3,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 19
+    },
+    {
+      "name": "Bravis",
+      "price": 400,
+      "customerRating": 4,
+      "picture": "tv",
+      "type": "TVs",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 20
+    },
+    {
+      "name": "Samsung Fridge",
+      "price": 5500,
+      "customerRating": 5,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 21
+    },
+    {
+      "name": "Samsung Oven",
+      "price": 3800,
+      "customerRating": 4,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 22
+    },
+    {
+      "name": "Sharp Fridge",
+      "price": 2000,
+      "customerRating": 3,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 23
+    },
+    {
+      "name": "Sharp Oven",
+      "price": 4100,
+      "customerRating": 4.5,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 24
+    },
+    {
+      "name": "LG Fridge",
+      "price": 6000,
+      "customerRating": 4,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 25
+    },
+    {
+      "name": "LG Microwave",
+      "price": 500,
+      "customerRating": 5,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 26
+    },
+    {
+      "name": "Indesit Oven",
+      "price": 1500,
+      "customerRating": 4,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 27
+    },
+    {
+      "name": "Indesit Microwave",
+      "price": 450,
+      "customerRating": 1,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 28
+    },
+    {
+      "name": "Bosch Vacuum Cleaner",
+      "price": 700,
+      "customerRating": 3,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 29
+    },
+    {
+      "name": "Bosch Vacuum Cleaner",
+      "price": 950,
+      "customerRating": 4,
+      "picture": "appliance",
+      "type": "appliances",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 30
+    },
+    {
+      "name": "Battlefield 1",
+      "price": 100,
+      "customerRating": 5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 31
+    },
+    {
+      "name": "Battlefield 5",
+      "price": 150,
+      "customerRating": 4,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 32
+    },
+    {
+      "name": "Resident Evil 2 Remake",
+      "price": 110,
+      "customerRating": 5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 33
+    },
+    {
+      "name": "Resident Evil 3 Remake",
+      "price": 140,
+      "customerRating": 4.5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 34
+    },
+    {
+      "name": "Call of Duty",
+      "price": 180,
+      "customerRating": 3,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 35
+    },
+    {
+      "name": "Witcher 3",
+      "price": 200,
+      "customerRating": 5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 36
+    },
+    {
+      "name": "CS:GO",
+      "price": 100,
+      "customerRating": 4,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 37
+    },
+    {
+      "name": "Civilization",
+      "price": 270,
+      "customerRating": 5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 38
+    },
+    {
+      "name": "DOOM",
+      "price": 165,
+      "customerRating": 4.5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 39
+    },
+    {
+      "name": "World of Warcraft",
+      "price": 350,
+      "customerRating": 5,
+      "picture": "game",
+      "type": "games",
+      "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
+      "reviews": [],
+      "id": 40
     }
   ]
 }
