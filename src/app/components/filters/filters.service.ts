@@ -72,8 +72,7 @@ export class FiltersService {
     this.filteredProducts = this.filteredProducts.filter(product => {
       let shouldPassFilter = false;
       this.prices.forEach(price => {
-        // доробити для безкінечних значень
-        if(price.checked && product.price >= price.value[0] && product.price <= price.value[1]) {
+        if(price.checked && product.price >= price.range[0] && (product.price <= price.range[1] || price.range[1] === 'up')) {
           shouldPassFilter = true;
         }
       })

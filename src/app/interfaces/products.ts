@@ -13,7 +13,7 @@ export interface Product {
 export type ProductType = 'phones' | 'TVs' | 'appliances' | 'games'
 
 export interface Price {
-  value: [number, number] | [number, string],
+  range: [number, number] | [number, string],
   viewValue: string,
   checked: boolean,
 }

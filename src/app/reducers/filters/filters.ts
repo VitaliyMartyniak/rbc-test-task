@@ -12,47 +12,47 @@ export const initialState: FiltersState = {
   filteredProducts: [],
   prices: [
     {
-      value: [100, 249.99],
+      range: [100, 249.99],
       viewValue: '$100 - $249.99',
       checked: false,
     },
     {
-      value: [250, 499.99],
+      range: [250, 499.99],
       viewValue: '$250 - $499.99',
       checked: false,
     },
     {
-      value: [500, 749.99],
+      range: [500, 749.99],
       viewValue: '$500 - $749.99',
       checked: false,
     },
     {
-      value: [750, 999.99],
+      range: [750, 999.99],
       viewValue: '$750 - $999.99',
       checked: false,
     },
     {
-      value: [1000, 1499.99],
+      range: [1000, 1499.99],
       viewValue: '$1000 - $1499.99',
       checked: false,
     },
     {
-      value: [1500, 1999.99],
+      range: [1500, 1999.99],
       viewValue: '$1500 - $1999.99',
       checked: false,
     },
     {
-      value: [2000, 2999.99],
+      range: [2000, 2999.99],
       viewValue: '$2000 - $2999.99',
       checked: false,
     },
     {
-      value: [3000, 4999.99],
+      range: [3000, 4999.99],
       viewValue: '$3000 - $4999.99',
       checked: false,
     },
     {
-      value: [5000, 'up'],
+      range: [5000, 'up'],
       viewValue: '$5000 and Up',
       checked: false,
     },
