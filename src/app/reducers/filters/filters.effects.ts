@@ -1,13 +1,22 @@
 import {Injectable} from "@angular/core";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
 import {Store} from "@ngrx/store";
-import {setFilteredProducts, setPrices, setSearch, setType} from "./filters";
-import {map, withLatestFrom} from "rxjs";
+import {debounceInput, setFilteredProducts, setPrices, setSearch, setType} from "./filters";
+import {debounceTime, map, withLatestFrom} from "rxjs";
 import {catalogProductsSelector} from "../catalog/catalog";
 
 @Injectable()
 export class FiltersEffects {
   constructor(private actions$: Actions, private store: Store) {}
+
+  debounceInput$ = createEffect(
+    () => this.actions$.pipe(
+      ofType(debounceInput),
+      debounceTime(1000),
+      map((action) => {
+        return setSearch({search: action.value})
+      }),
+    ));
 
   // filterByType$ = createEffect(
   //   () => this.actions$.pipe(

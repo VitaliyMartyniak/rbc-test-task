@@ -70,6 +70,9 @@ export const setPrices = createAction('[FILTERS] set prices',
 export const setType = createAction('[FILTERS] set type',
   props<{productType: string}>()
 );
+export const debounceInput = createAction('[FILTERS] debounce input',
+  props<{value: string}>()
+);
 export const setSearch = createAction('[FILTERS] set search',
   props<{search: string}>()
 );

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
 import {
+  debounceInput,
   pricesSelector,
   productTypeSelector,
   searchSelector,
   setPrices,
-  setSearch,
   setType
 } from "../../reducers/filters/filters";
 import {Price} from "../../interfaces/products";
@@ -63,7 +63,7 @@ export class FiltersComponent implements OnInit {
   }
 
   searchProducts(value: string) {
-    this.store.dispatch(setSearch({search: value}));
+    this.store.dispatch(debounceInput({value}));
   }
 
   changeTypeSelection(value: string) {
