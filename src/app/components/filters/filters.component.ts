@@ -8,7 +8,7 @@ import {
   setPrices,
   setType
 } from "../../reducers/filters/filters";
-import {Price} from "../../interfaces/products";
+import {Price} from "../../interfaces/catalog";
 import {MatCheckboxChange} from "@angular/material/checkbox";
 import {FiltersService} from "./filters.service";
 import {Observable, Subscription} from "rxjs";

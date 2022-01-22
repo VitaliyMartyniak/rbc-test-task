@@ -10,14 +10,14 @@ export interface Product {
   countInCart?: number
 }
 
-export interface Price {
-  range: [number, number] | [number, string],
-  viewValue: string,
-  checked: boolean,
-}
-
 export interface Review {
   author: string,
   review: string,
   date: string,
+}
+
+export interface Price {
+  range: [number, number] | [number, string],
+  viewValue: string,
+  checked: boolean,
 }

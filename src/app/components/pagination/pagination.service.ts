@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import {Product} from "../../interfaces/products";
+import {Product} from "../../interfaces/catalog";
 import {Store} from "@ngrx/store";
 import {
   filteredProductsSelector,

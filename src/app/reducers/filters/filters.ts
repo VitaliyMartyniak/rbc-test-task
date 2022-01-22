@@ -1,5 +1,5 @@
 import {createAction, createFeatureSelector, createReducer, createSelector, on, props} from "@ngrx/store";
-import {Price, Product} from "../../interfaces/products";
+import {Price, Product} from "../../interfaces/catalog";
 
 export interface FiltersState {
   filteredProducts: Product[],

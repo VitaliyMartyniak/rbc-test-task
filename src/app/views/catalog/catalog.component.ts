@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Product} from "../../interfaces/products";
+import {Product} from "../../interfaces/catalog";
 import {select, Store} from "@ngrx/store";
 import {paginatedProductsSelector} from "../../reducers/pagination/pagination";
 import {MatDialog} from "@angular/material/dialog";

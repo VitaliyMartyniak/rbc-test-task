@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {cartProductsSelector} from "../../reducers/cart/cart";
 import {Store} from "@ngrx/store";
-import {Product} from "../../interfaces/products";
+import {Product} from "../../interfaces/catalog";
 import {Subscription} from "rxjs";
 
 @Component({

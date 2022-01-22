@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import {Store} from "@ngrx/store";
-import {Price, Product} from "../../interfaces/products";
+import {Price, Product} from "../../interfaces/catalog";
 import {pricesSelector, productTypeSelector, searchSelector, setFilteredProducts} from "../../reducers/filters/filters";
 import {catalogProductsSelector} from "../../reducers/catalog/catalog";
 import {PaginationService} from "../pagination/pagination.service";

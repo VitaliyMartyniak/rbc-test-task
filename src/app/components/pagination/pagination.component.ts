@@ -4,7 +4,7 @@ import {pageIndexSelector, updatePage} from "../../reducers/pagination/paginatio
 import {PageEvent} from "@angular/material/paginator";
 import {filteredProductsSelector, searchSelector} from "../../reducers/filters/filters";
 import {PaginationService} from "./pagination.service";
-import {Product} from "../../interfaces/products";
+import {Product} from "../../interfaces/catalog";
 import {Observable, Subscription} from "rxjs";
 
 @Component({

@@ -1,6 +1,6 @@
-import {Component, Inject, OnInit} from '@angular/core';
+import {Component, Inject} from '@angular/core';
 import {MAT_DIALOG_DATA} from "@angular/material/dialog";
-import {Product} from "../../interfaces/products";
+import {Product} from "../../interfaces/catalog";
 import {Store} from "@ngrx/store";
 import {addToCart} from "../../reducers/cart/cart";
 
