@@ -9,15 +9,15 @@ export const initialState: NotificationsState = {
 }
 
 export const setSnackbarText = createAction('[NOTIFICATIONS] set snackbar text',
-  props<{text: string}>()
+  props<{snackbarText: string}>()
 );
 export const clearSnackbarText = createAction('[NOTIFICATIONS] clear snackbar text');
 
 export const notificationsReducer = createReducer(
   initialState,
-  on(setSnackbarText, (state, {text}) => ({
+  on(setSnackbarText, (state, {snackbarText}) => ({
     ...state,
-    snackbarText: text
+    snackbarText
   })),
   on(clearSnackbarText, (state) => ({
     ...state,

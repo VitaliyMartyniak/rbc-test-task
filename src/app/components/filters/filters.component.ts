@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {Store} from "@ngrx/store";
+import {Component, OnInit} from '@angular/core';
+import {select, Store} from "@ngrx/store";
 import {
   debounceInput,
   pricesSelector,
@@ -11,6 +11,7 @@ import {
 import {Price} from "../../interfaces/products";
 import {MatCheckboxChange} from "@angular/material/checkbox";
 import {FiltersService} from "./filters.service";
+import {Observable, Subscription} from "rxjs";
 
 @Component({
   selector: 'app-filters',
@@ -41,36 +42,36 @@ export class FiltersComponent implements OnInit {
     },
   ]
 
-  prices: Price[] = [];
+  prices$: Observable<Price[]> = this.store.pipe(select(pricesSelector));
+
+  search$: Observable<string> = this.store.pipe(select(searchSelector));
 
   productType = '';
 
-  search = '';
+  productTypeSub: Subscription;
 
   constructor(private store: Store, private filtersService: FiltersService) { }
 
   ngOnInit(): void {
-    this.store.select(pricesSelector).subscribe((prices) => {
-      this.prices = prices;
-    });
-    this.store.select(searchSelector).subscribe((search) => {
-      this.search = search;
-    });
-    this.store.select(productTypeSelector).subscribe((type) => {
+    this.productTypeSub = this.store.select(productTypeSelector).subscribe((type: string): void => {
       this.productType = type;
     });
     this.filtersService.init();
   }
 
-  searchProducts(value: string) {
+  searchProducts(value: string): void {
     this.store.dispatch(debounceInput({value}));
   }
 
-  changeTypeSelection(value: string) {
-    this.store.dispatch(setType({productType: value}));
+  changeTypeSelection(productType: string): void {
+    this.store.dispatch(setType({productType}));
   }
 
-  changePriceSelection(event: MatCheckboxChange, viewValue: string) {
+  changePriceSelection(event: MatCheckboxChange, viewValue: string): void {
     this.store.dispatch(setPrices({viewValue}));
+  }
+
+  ngOnDestroy(): void {
+    this.productTypeSub.unsubscribe();
   }
 }

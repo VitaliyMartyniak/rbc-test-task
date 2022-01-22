@@ -16,9 +16,9 @@ export const setCatalogProducts = createAction('[CATALOG] set catalog products',
 
 export const catalogReducer = createReducer(
   initialState,
-  on(setCatalogProducts, (state, action) => ({
+  on(setCatalogProducts, (state, {catalogProducts}) => ({
     ...state,
-    catalogProducts: action.catalogProducts
+    catalogProducts
   })),
 );
 

@@ -14,7 +14,6 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import {MatPaginatorModule} from "@angular/material/paginator";
 import {EffectsModule} from "@ngrx/effects";
 import {metaReducers, reducers} from "./reducers";
-import {PaginationEffects} from "./reducers/pagination/pagination.effects";
 import {MatInputModule} from "@angular/material/input";
 import {MatOptionModule} from "@angular/material/core";
 import {MatSelectModule} from "@angular/material/select";
@@ -48,7 +47,7 @@ import {CartEffects} from "./reducers/cart/cart.effects";
     BrowserAnimationsModule,
     MatIconModule,
     StoreModule.forRoot(reducers, {metaReducers}),
-    EffectsModule.forRoot([PaginationEffects, FiltersEffects, CatalogEffects, CartEffects]),
+    EffectsModule.forRoot([FiltersEffects, CatalogEffects, CartEffects]),
     MatPaginatorModule,
     MatInputModule,
     MatOptionModule,

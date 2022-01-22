@@ -17,7 +17,7 @@ export class ProductDetailsModalComponent {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData, private store: Store) {}
 
-  addToCart(product: Product) {
+  addToCart(product: Product): void {
     this.store.dispatch(addToCart({product}));
   }
 }

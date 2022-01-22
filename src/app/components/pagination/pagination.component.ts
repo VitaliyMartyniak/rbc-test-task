@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {Store} from "@ngrx/store";
+import {select, Store} from "@ngrx/store";
 import {pageIndexSelector, updatePage} from "../../reducers/pagination/pagination";
 import {PageEvent} from "@angular/material/paginator";
-import {filteredProductsSelector} from "../../reducers/filters/filters";
+import {filteredProductsSelector, searchSelector} from "../../reducers/filters/filters";
 import {PaginationService} from "./pagination.service";
+import {Product} from "../../interfaces/products";
+import {Observable, Subscription} from "rxjs";
 
 @Component({
   selector: 'app-pagination',
@@ -12,21 +14,24 @@ import {PaginationService} from "./pagination.service";
 })
 export class PaginationComponent implements OnInit {
   length = 0;
-  pageIndex = 0;
+  pageIndex$: Observable<number> = this.store.pipe(select(pageIndexSelector));
+
+  filteredProductsSub: Subscription;
 
   constructor(private store: Store, private paginationService: PaginationService) { }
 
   ngOnInit(): void {
-    this.store.select(filteredProductsSelector).subscribe((products) => {
+    this.filteredProductsSub = this.store.select(filteredProductsSelector).subscribe((products: Product[]): void => {
       this.length = products.length;
-    });
-    this.store.select(pageIndexSelector).subscribe((pageIndex) => {
-      this.pageIndex = pageIndex;
     });
     this.paginationService.init();
   }
 
-  handlePageEvent($event: PageEvent) {
+  handlePageEvent($event: PageEvent): void {
     this.store.dispatch(updatePage({pageIndex: $event.pageIndex}));
+  }
+
+  ngOnDestroy(): void {
+    this.filteredProductsSub.unsubscribe();
   }
 }

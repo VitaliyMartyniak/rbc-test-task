@@ -17,19 +17,7 @@ export class CatalogEffects {
       ofType(loadProducts),
       switchMap(() => of(this.catalogService.getProducts())),
       pipe(
-        map((products: Product[]) => setCatalogProducts({catalogProducts: products})
+        map((catalogProducts: Product[]) => setCatalogProducts({catalogProducts})
       )
     )))
-
-  addToCart$ = createEffect(
-    () => this.actions$.pipe(
-      ofType(addToCart),
-      map(() => setSnackbarText({text: 'Product added to cart!'})
-      )))
-
-  submitOrder$ = createEffect(
-    () => this.actions$.pipe(
-      ofType(addToCart),
-      map(() => setSnackbarText({text: 'Product added to cart!'})
-      )))
 }

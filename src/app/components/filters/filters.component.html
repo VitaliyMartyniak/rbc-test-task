@@ -1,7 +1,7 @@
 <div class="filter">
   <mat-form-field class="search" appearance="fill">
     <mat-icon matPrefix><img src="assets/img/search.svg" alt="Search icon"></mat-icon>
-    <input #searchField matInput placeholder="Search products..." [value]="search" (input)="searchProducts(searchField.value)">
+    <input #searchField matInput placeholder="Search products..." [value]="search$ | async" (input)="searchProducts(searchField.value)">
   </mat-form-field>
 </div>
 
@@ -15,7 +15,7 @@
 </div>
 
 <div class="filter">
-  <p *ngFor="let option of prices">
+  <p *ngFor="let option of prices$ | async">
     <mat-checkbox [checked]="option.checked" (change)="changePriceSelection($event, option.viewValue)">{{ option.viewValue }}</mat-checkbox>
   </p>
 </div>

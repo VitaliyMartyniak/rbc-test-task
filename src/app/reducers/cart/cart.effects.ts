@@ -11,12 +11,12 @@ export class CartEffects {
   addToCart$ = createEffect(
     () => this.actions$.pipe(
       ofType(addToCart),
-      map(() => setSnackbarText({text: 'Product added to cart!'})
+      map(() => setSnackbarText({snackbarText: 'Product added to cart!'})
       )))
 
   submitOrder$ = createEffect(
     () => this.actions$.pipe(
       ofType(submitOrder),
-      map(() => setSnackbarText({text: 'Thanks for your purchase!'})
+      map(() => setSnackbarText({snackbarText: 'Thanks for your purchase!'})
       )))
 }

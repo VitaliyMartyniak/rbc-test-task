@@ -79,24 +79,24 @@ export const setSearch = createAction('[FILTERS] set search',
 
 export const filtersReducer = createReducer(
   initialState,
-  on(setFilteredProducts, (state, action) => ({
+  on(setFilteredProducts, (state, {filteredProducts}) => ({
     ...state,
-    filteredProducts: action.filteredProducts
+    filteredProducts
   })),
   on(setPrices, (state, {viewValue}) => ({
     ...state,
-    prices: state.prices.map(price => price.viewValue === viewValue ? {
+    prices: state.prices.map((price: Price) => price.viewValue === viewValue ? {
       ...price,
       checked: !price.checked
     }: price)
   })),
-  on(setType, (state, action) => ({
+  on(setType, (state, {productType}) => ({
     ...state,
-    productType: action.productType
+    productType
   })),
-  on(setSearch, (state, action) => ({
+  on(setSearch, (state, {search}) => ({
     ...state,
-    search: action.search
+    search
   })),
 );
 

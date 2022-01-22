@@ -18,28 +18,28 @@ export class FiltersService {
 
   constructor(private store: Store, private paginationService: PaginationService) {}
 
-  init() {
+  init(): void {
     if (this.isInit) {
       return
     }
 
-    this.store.select(catalogProductsSelector).subscribe((products) => {
+    this.store.select(catalogProductsSelector).subscribe((products: Product[]): void => {
       this.catalogProducts = products;
       this.filterCatalogProducts();
     });
-    this.store.select(pricesSelector).subscribe((prices) => {
+    this.store.select(pricesSelector).subscribe((prices: Price[]): void => {
       this.prices = prices;
       if (this.isInit) {
         this.filterCatalogProducts();
       }
     });
-    this.store.select(productTypeSelector).subscribe((productType) => {
+    this.store.select(productTypeSelector).subscribe((productType: string): void => {
       this.productType = productType;
       if (this.isInit) {
         this.filterCatalogProducts();
       }
     });
-    this.store.select(searchSelector).subscribe((search) => {
+    this.store.select(searchSelector).subscribe((search: string): void => {
       this.search = search;
       if (this.isInit) {
         this.filterCatalogProducts();
@@ -49,7 +49,7 @@ export class FiltersService {
     this.isInit = true;
   }
 
-  filterCatalogProducts() {
+  filterCatalogProducts(): void {
     this.filteredProducts = [...this.catalogProducts];
     this.filterByPrice();
     this.filterByProductType();
@@ -60,7 +60,7 @@ export class FiltersService {
 
   private filterByPrice(): void {
     let isAnyPriceChecked = false;
-    this.prices.forEach(price => {
+    this.prices.forEach((price: Price) => {
       if(price.checked) {
         isAnyPriceChecked = true;
       }
@@ -69,9 +69,9 @@ export class FiltersService {
       return
     }
 
-    this.filteredProducts = this.filteredProducts.filter(product => {
+    this.filteredProducts = this.filteredProducts.filter((product: Product): boolean => {
       let shouldPassFilter = false;
-      this.prices.forEach(price => {
+      this.prices.forEach((price: Price) => {
         if(price.checked && product.price >= price.range[0] && (product.price <= price.range[1] || price.range[1] === 'up')) {
           shouldPassFilter = true;
         }
@@ -84,10 +84,10 @@ export class FiltersService {
     if (!this.productType || this.productType === 'all') {
       return
     }
-    this.filteredProducts = this.filteredProducts.filter(product => product.type === this.productType)
+    this.filteredProducts = this.filteredProducts.filter((product: Product) => product.type === this.productType)
   }
 
   private filterBySearch(): void {
-    this.filteredProducts = this.filteredProducts.filter(product => product.name.toLowerCase().includes(this.search.toLowerCase()))
+    this.filteredProducts = this.filteredProducts.filter((product: Product) => product.name.toLowerCase().includes(this.search.toLowerCase()))
   }
 }

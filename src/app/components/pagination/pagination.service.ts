@@ -17,18 +17,18 @@ export class PaginationService {
 
   constructor(private store: Store) {}
 
-  init() {
+  init(): void {
     if (this.isInit) {
       return
     }
 
-    this.store.select(filteredProductsSelector).subscribe((products) => {
+    this.store.select(filteredProductsSelector).subscribe((products: Product[]): void => {
       this.filteredProducts = products;
       if (this.isInit) {
         this.store.dispatch(updatePage({pageIndex: 0}));
       }
     });
-    this.store.select(pageIndexSelector).subscribe((pageIndex) => {
+    this.store.select(pageIndexSelector).subscribe((pageIndex: number): void => {
       this.pageIndex = pageIndex;
       if (this.isInit) {
         this.setPaginatedProducts();
@@ -38,7 +38,7 @@ export class PaginationService {
     this.isInit = true;
   }
 
-  setPaginatedProducts(filteredProducts = this.filteredProducts) {
+  setPaginatedProducts(filteredProducts: Product[] = this.filteredProducts): void {
     const products = _.chunk(filteredProducts, 10)
     const paginatedProducts = products[this.pageIndex];
     this.store.dispatch(setPaginatedProducts({paginatedProducts}));

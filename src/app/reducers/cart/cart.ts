@@ -23,7 +23,7 @@ export const submitOrder = createAction('[CART] submit order');
 export const cartReducer = createReducer(
   initialState,
   on(addToCart, (state, {product}) => {
-    const existingProduct = state.cartProducts.find(cartProduct => cartProduct.id === product.id);
+    const existingProduct = state.cartProducts.find((cartProduct: Product) => cartProduct.id === product.id);
     if (!existingProduct) {
       return ({
         ...state,
@@ -32,7 +32,7 @@ export const cartReducer = createReducer(
     } else {
       return ({
         ...state,
-        cartProducts: state.cartProducts.map(cartProduct => cartProduct.id === product.id ? {
+        cartProducts: state.cartProducts.map((cartProduct: Product) => cartProduct.id === product.id ? {
           ...cartProduct, countInCart: cartProduct.countInCart! + 1
         }: cartProduct)
       })
@@ -40,13 +40,13 @@ export const cartReducer = createReducer(
   }),
   on(changeExistingProductCount, (state, {product, value}) => ({
     ...state,
-    cartProducts: state.cartProducts.map(cartProduct => cartProduct.id === product.id ? {
+    cartProducts: state.cartProducts.map((cartProduct: Product) => cartProduct.id === product.id ? {
       ...cartProduct, countInCart: value
     } : cartProduct),
   })),
   on(removeFromCart, (state, {id}) => ({
     ...state,
-    cartProducts: state.cartProducts.filter(product => product.id !== id),
+    cartProducts: state.cartProducts.filter((product: Product) => product.id !== id),
   })),
   on(submitOrder, (state) => ({
     ...state,
