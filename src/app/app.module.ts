@@ -26,7 +26,7 @@ import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
 import {FormsModule} from "@angular/forms";
 import {CatalogEffects} from "./reducers/catalog/catalog.effects";
-import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { SnackbarComponent } from './shared/snackbar/snackbar.component';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {CartEffects} from "./reducers/cart/cart.effects";
 import { StarRatingComponent } from './shared/star-rating/star-rating.component';

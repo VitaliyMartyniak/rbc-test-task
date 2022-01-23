@@ -18,7 +18,7 @@ export class SnackbarComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.snackbarTextSub = this.store.select(snackbarTextSelector).subscribe((text: string): void => {
       if (text) {
-        let snackBarRef = this._snackBar.open(text, 'close', {duration: 5000});
+        let snackBarRef = this._snackBar.open(text, 'close', {duration: 5000, panelClass: ['custom-snackbar']});
         snackBarRef.afterDismissed().subscribe((): void => {
           this.store.dispatch(clearSnackbarText());
         })
