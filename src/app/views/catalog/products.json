@@ -7,7 +7,18 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 1
     },
     {
@@ -17,7 +28,18 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 2
     },
     {
@@ -27,7 +49,18 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 3
     },
     {
@@ -47,7 +80,13 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 5
     },
     {
@@ -57,7 +96,13 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        }
+      ],
       "id": 6
     },
     {
@@ -67,7 +112,28 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 7
     },
     {
@@ -77,7 +143,18 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 8
     },
     {
@@ -87,7 +164,13 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        }
+      ],
       "id": 9
     },
     {
@@ -97,7 +180,13 @@
       "picture": "phone",
       "type": "phone",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 10
     },
     {
@@ -117,7 +206,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 12
     },
     {
@@ -127,7 +227,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 13
     },
     {
@@ -137,7 +248,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 14
     },
     {
@@ -147,7 +269,13 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        }
+      ],
       "id": 15
     },
     {
@@ -157,7 +285,28 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 16
     },
     {
@@ -167,7 +316,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 17
     },
     {
@@ -177,7 +337,23 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 18
     },
     {
@@ -187,7 +363,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 19
     },
     {
@@ -197,7 +384,18 @@
       "picture": "tv",
       "type": "tv",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        }
+      ],
       "id": 20
     },
     {
@@ -207,7 +405,18 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 21
     },
     {
@@ -217,7 +426,23 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        }
+      ],
       "id": 22
     },
     {
@@ -227,7 +452,23 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 23
     },
     {
@@ -237,7 +478,28 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 24
     },
     {
@@ -247,7 +509,18 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 25
     },
     {
@@ -257,7 +530,23 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 26
     },
     {
@@ -267,7 +556,28 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 27
     },
     {
@@ -277,7 +587,28 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 28
     },
     {
@@ -297,7 +628,18 @@
       "picture": "appliance",
       "type": "appliance",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 30
     },
     {
@@ -307,7 +649,23 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        }
+      ],
       "id": 31
     },
     {
@@ -317,7 +675,13 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        }
+      ],
       "id": 32
     },
     {
@@ -327,7 +691,18 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 33
     },
     {
@@ -337,7 +712,18 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 34
     },
     {
@@ -347,7 +733,23 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 35
     },
     {
@@ -357,7 +759,18 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        }
+      ],
       "id": 36
     },
     {
@@ -377,7 +790,28 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 38
     },
     {
@@ -387,7 +821,28 @@
       "picture": "game",
       "type": "game",
       "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus. Aenean sed aliquet ante. Quisque volutpat convallis ipsum.",
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "16 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "18 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Awesome!",
+          "date": "20 Sep 2021"
+        },
+        {
+          "author": "Lorem ipsum",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pharetra purus.",
+          "date": "24 Sep 2021"
+        }
+      ],
       "id": 39
     },
     {

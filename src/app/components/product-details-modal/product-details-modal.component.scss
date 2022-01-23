@@ -1,0 +1,26 @@
+.dialog-title {
+  text-align: center;
+}
+
+.dialog-content {
+  width: 600px;
+
+  .product-info {
+    display: flex;
+
+    img {
+      display: block;
+      margin-right: 10px;
+    }
+  }
+
+  .review {
+    margin-bottom: 20px;
+
+    .author-and-date {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+  }
+}

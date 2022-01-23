@@ -12,7 +12,7 @@ export interface Product {
 
 export interface Review {
   author: string,
-  review: string,
+  text: string,
   date: string,
 }
 
