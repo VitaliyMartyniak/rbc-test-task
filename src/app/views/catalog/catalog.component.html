@@ -10,7 +10,7 @@
         <img src="../../assets/img/{{product.picture}}.jpg" />
       </div>
       <p class="item__title">{{product.name}}
-        <span>Rating {{product.customerRating}}</span>
+        <app-star-rating [rating]="product.customerRating"></app-star-rating>
       </p>
       <hr/>
       <h3 class="item__price">{{product.price | currency}}</h3>

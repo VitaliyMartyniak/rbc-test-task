@@ -4,7 +4,7 @@
     <img src="../../assets/img/{{data.product.picture}}.jpg" />
   </div>
   <p class="item__title">{{data.product.name}}
-    <span>Rating {{data.product.customerRating}}</span>
+    <app-star-rating [rating]="data.product.customerRating"></app-star-rating>
   </p>
   <hr/>
   <h3 class="item__price">{{data.product.price | currency}}</h3>

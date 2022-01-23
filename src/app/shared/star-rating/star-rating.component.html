@@ -1,0 +1,5 @@
+<div class="rating">
+  <span *ngFor="let fullStar of fullStars"><mat-icon>star</mat-icon></span>
+  <span *ngIf="hasAnHalfStar"><mat-icon>star_half</mat-icon></span>
+  <span *ngFor="let emptyStar of emptyStars"><mat-icon>star_border</mat-icon></span>
+</div>
