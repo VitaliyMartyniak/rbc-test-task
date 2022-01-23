@@ -29,6 +29,7 @@ import {CatalogEffects} from "./reducers/catalog/catalog.effects";
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {CartEffects} from "./reducers/cart/cart.effects";
+import { StarRatingComponent } from './shared/star-rating/star-rating.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import {CartEffects} from "./reducers/cart/cart.effects";
     PaginationComponent,
     ProductDetailsModalComponent,
     SnackbarComponent,
+    StarRatingComponent,
   ],
   imports: [
     BrowserModule,

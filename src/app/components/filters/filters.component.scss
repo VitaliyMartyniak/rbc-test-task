@@ -14,19 +14,27 @@
     font-weight: bold;
   }
 
-  &__element {
-    margin-bottom: 10px;
-  }
-
-  &__label {
-    cursor: pointer;
-  }
-
-  &__name {
-    margin-left: 5px;
-  }
-
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #6096e9 !important;
+}
+
+::ng-deep .mat-checkbox-ripple .mat-ripple-element {
+  background-color: #6096e9 !important;
+}
+
+::ng-deep .mat-form-field-ripple{
+  background-color: #6096e9 !important;
+}
+
+::ng-deep .mat-select-value, ::ng-deep .mat-form-field-prefix, .search ::ng-deep .mat-form-field-infix {
+  transform: translateY(-6px);
 }

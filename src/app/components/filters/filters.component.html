@@ -6,8 +6,8 @@
 </div>
 
 <div class="filter">
+  <p class="filter__title">Product Type</p>
   <mat-form-field appearance="fill">
-    <mat-label>Product Type</mat-label>
     <mat-select [(value)]="productType" (selectionChange)="changeTypeSelection($event.value)">
       <mat-option [value]="option.value" *ngFor="let option of productTypes">{{ option.viewValue }}</mat-option>
     </mat-select>
@@ -15,6 +15,7 @@
 </div>
 
 <div class="filter">
+  <p class="filter__title">Price</p>
   <p *ngFor="let option of prices$ | async">
     <mat-checkbox [checked]="option.checked" (change)="changePriceSelection($event, option.viewValue)">{{ option.viewValue }}</mat-checkbox>
   </p>
