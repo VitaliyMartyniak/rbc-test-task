@@ -4,8 +4,8 @@
     <app-filters></app-filters>
   </div>
 
-  <div class="catalog">
-    <div class="catalog__item" *ngFor="let product of paginatedProducts$ | async" (click)="openModal(product)">
+  <div class="catalog" *ngIf="paginatedProducts && paginatedProducts.length; else noItems">
+    <div class="catalog__item" *ngFor="let product of paginatedProducts" (click)="openModal(product)">
       <div class="item__photo">
         <img src="../../assets/img/{{product.picture}}.jpg" />
       </div>
@@ -16,9 +16,13 @@
       <h3 class="item__price">{{product.price | currency}}</h3>
     </div>
 
-    <div class="catalog__pagination">
+    <div *ngIf="paginatedProducts && paginatedProducts.length" class="catalog__pagination">
       <app-pagination></app-pagination>
     </div>
   </div>
+
+  <ng-template #noItems>
+    <span>No products</span>
+  </ng-template>
 </div>
 

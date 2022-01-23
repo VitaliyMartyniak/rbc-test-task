@@ -6,7 +6,8 @@ import {MatDialog} from "@angular/material/dialog";
 import {ProductDetailsModalComponent} from "../../components/product-details-modal/product-details-modal.component";
 import {loadProducts} from "../../reducers/catalog/catalog";
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {Observable} from "rxjs";
+import {Observable, Subscription} from "rxjs";
+import {cartProductsSelector} from "../../reducers/cart/cart";
 
 @Component({
   selector: 'app-catalog',
@@ -14,11 +15,16 @@ import {Observable} from "rxjs";
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit {
-  paginatedProducts$: Observable<Product[]> = this.store.pipe(select(paginatedProductsSelector));
+  paginatedProducts: Product[] = [];
+
+  paginatedProductsSub: Subscription;
 
   constructor(private snackBar: MatSnackBar, private store: Store, public modal: MatDialog) { }
 
   ngOnInit(): void {
+    this.paginatedProductsSub = this.store.select(paginatedProductsSelector).subscribe((products: Product[]): void => {
+      this.paginatedProducts = products;
+    })
     this.store.dispatch(loadProducts());
   }
 
@@ -30,4 +36,7 @@ export class CatalogComponent implements OnInit {
     });
   }
 
+  ngOnDestroy(): void {
+    this.paginatedProductsSub.unsubscribe();
+  }
 }

@@ -1,27 +1,35 @@
 .cart {
   max-width: 700px;
   margin: 0 auto 40px;
-  background-color: var(--light-color);
+  background-color: #f3f3f3;
 
   &__item {
     display: flex;
+
+    .delete__button {
+      display: inline-block;
+      margin-left: auto;
+      align-self: flex-start;
+    }
   }
 
   &__submit {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-top: 1px solid var(--dark-color);
+    padding-top: 10px;
+    border-top: 1px solid #000;
 
     .submit__total {
-      margin-right: 20px;
-      color: var(--detail-color);
+      margin: 0 20px 0 0;
+      color: #6096e9;
       font-weight: bold;
     }
 
     .submit__button {
       margin-left: 0;
-      background-color: var(--detail-color);
+      background-color: #6096e9;
+      color: #fff;
     }
   }
 }
@@ -51,13 +59,11 @@
   }
 }
 
-.btn {
-  min-width: 100px;
-  height: 100%;
-  display: inline-block;
-  background-color: var(--dark-color);
-  margin-left: auto;
-  padding: 10px;
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-
-
+input[type="number"] {
+  -moz-appearance: textfield;
+}
