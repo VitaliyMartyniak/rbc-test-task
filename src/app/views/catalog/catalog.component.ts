@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import {Product} from "../../interfaces/catalog";
-import {select, Store} from "@ngrx/store";
+import {Store} from "@ngrx/store";
 import {paginatedProductsSelector} from "../../reducers/pagination/pagination";
 import {MatDialog} from "@angular/material/dialog";
 import {ProductDetailsModalComponent} from "../../components/product-details-modal/product-details-modal.component";
 import {loadProducts} from "../../reducers/catalog/catalog";
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {Observable, Subscription} from "rxjs";
-import {cartProductsSelector} from "../../reducers/cart/cart";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-catalog',
@@ -19,7 +18,7 @@ export class CatalogComponent implements OnInit {
 
   paginatedProductsSub: Subscription;
 
-  constructor(private snackBar: MatSnackBar, private store: Store, public modal: MatDialog) { }
+  constructor(private snackBar: MatSnackBar, private store: Store, private modal: MatDialog) { }
 
   ngOnInit(): void {
     this.paginatedProductsSub = this.store.select(paginatedProductsSelector).subscribe((products: Product[]): void => {

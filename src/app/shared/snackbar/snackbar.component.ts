@@ -29,5 +29,4 @@ export class SnackbarComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.snackbarTextSub.unsubscribe();
   }
-
 }

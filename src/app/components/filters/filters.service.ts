@@ -60,7 +60,7 @@ export class FiltersService {
 
   private filterByPrice(): void {
     let isAnyPriceChecked = false;
-    this.prices.forEach((price: Price) => {
+    this.prices.forEach((price: Price): void => {
       if(price.checked) {
         isAnyPriceChecked = true;
       }
