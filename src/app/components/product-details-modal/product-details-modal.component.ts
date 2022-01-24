@@ -2,7 +2,7 @@ import {Component, Inject} from '@angular/core';
 import {MAT_DIALOG_DATA} from "@angular/material/dialog";
 import {Product} from "../../interfaces/catalog";
 import {Store} from "@ngrx/store";
-import {addToCart} from "../../reducers/cart/cart";
+import {addToCart} from "../../store/actions/cart";
 
 export interface DialogData {
   product: Product
@@ -17,7 +17,7 @@ export class ProductDetailsModalComponent {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData, private store: Store) {}
 
-  addToCart(product: Product): void {
+  addProductToCart(product: Product): void {
     this.store.dispatch(addToCart({product}));
   }
 }

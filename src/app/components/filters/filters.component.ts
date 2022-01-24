@@ -1,17 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 import {select, Store} from "@ngrx/store";
-import {
-  debounceInput,
-  pricesSelector,
-  productTypeSelector,
-  searchSelector,
-  setPrices,
-  setType
-} from "../../reducers/filters/filters";
 import {Price} from "../../interfaces/catalog";
 import {MatCheckboxChange} from "@angular/material/checkbox";
 import {FiltersService} from "./filters.service";
 import {Observable, Subscription} from "rxjs";
+import {pricesSelector, productTypeSelector, searchSelector} from "../../store/selectors/filters";
+import {debounceInput, setPrices, setType} from "../../store/actions/filters";
 
 @Component({
   selector: 'app-filters',

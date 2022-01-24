@@ -1,8 +1,8 @@
 import {Injectable} from "@angular/core";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
 import {map} from "rxjs";
-import {addToCart, submitOrder} from "./cart";
-import {setSnackbarText} from "../notifications/notifications";
+import {addToCart, submitOrder} from "../actions/cart";
+import {setSnackbarText} from "../actions/notifications";
 
 @Injectable()
 export class CartEffects {

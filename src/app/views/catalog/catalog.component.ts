@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import {Product} from "../../interfaces/catalog";
 import {Store} from "@ngrx/store";
-import {paginatedProductsSelector} from "../../reducers/pagination/pagination";
 import {MatDialog} from "@angular/material/dialog";
 import {ProductDetailsModalComponent} from "../../components/product-details-modal/product-details-modal.component";
-import {loadProducts} from "../../reducers/catalog/catalog";
 import {MatSnackBar} from "@angular/material/snack-bar";
 import {Subscription} from "rxjs";
+import {paginatedProductsSelector} from "../../store/selectors/pagination";
+import {loadProducts} from "../../store/actions/catalog";
 
 @Component({
   selector: 'app-catalog',

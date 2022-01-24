@@ -1,5 +1,6 @@
-import {createAction, createFeatureSelector, createReducer, createSelector, on, props} from "@ngrx/store";
+import {createReducer, on} from "@ngrx/store";
 import {Price, Product} from "../../interfaces/catalog";
+import {setFilteredProducts, setPrices, setSearch, setType} from "../actions/filters";
 
 export interface FiltersState {
   filteredProducts: Product[],
@@ -61,22 +62,6 @@ export const initialState: FiltersState = {
   search: '',
 }
 
-export const setFilteredProducts = createAction('[FILTERS] set filtered products',
-  props<{filteredProducts: Product[]}>()
-);
-export const setPrices = createAction('[FILTERS] set prices',
-  props<{viewValue: string}>()
-);
-export const setType = createAction('[FILTERS] set type',
-  props<{productType: string}>()
-);
-export const debounceInput = createAction('[FILTERS] debounce input',
-  props<{value: string}>()
-);
-export const setSearch = createAction('[FILTERS] set search',
-  props<{search: string}>()
-);
-
 export const filtersReducer = createReducer(
   initialState,
   on(setFilteredProducts, (state, {filteredProducts}) => ({
@@ -98,22 +83,4 @@ export const filtersReducer = createReducer(
     ...state,
     search
   })),
-);
-
-export const featureSelector = createFeatureSelector<FiltersState>('filters');
-export const filteredProductsSelector = createSelector(
-  featureSelector,
-  state => state.filteredProducts
-);
-export const pricesSelector = createSelector(
-  featureSelector,
-  state => state.prices
-);
-export const productTypeSelector = createSelector(
-  featureSelector,
-  state => state.productType
-);
-export const searchSelector = createSelector(
-  featureSelector,
-  state => state.search
 );

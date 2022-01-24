@@ -31,5 +31,4 @@ export class StarRatingComponent {
   get hasAnHalfStar(): boolean {
     return this.rating % 1 !== 0;
   }
-
 }

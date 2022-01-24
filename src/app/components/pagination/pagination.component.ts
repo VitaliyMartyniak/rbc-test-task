@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import {select, Store} from "@ngrx/store";
-import {pageIndexSelector, updatePage} from "../../reducers/pagination/pagination";
 import {PageEvent} from "@angular/material/paginator";
-import {filteredProductsSelector} from "../../reducers/filters/filters";
 import {PaginationService} from "./pagination.service";
 import {Product} from "../../interfaces/catalog";
 import {Observable, Subscription} from "rxjs";
+import {pageIndexSelector} from "../../store/selectors/pagination";
+import {updatePage} from "../../store/actions/pagination";
+import {filteredProductsSelector} from "../../store/selectors/filters";
 
 @Component({
   selector: 'app-pagination',

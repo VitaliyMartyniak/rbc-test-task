@@ -1,11 +1,10 @@
 import { Injectable } from "@angular/core";
 import {Product} from "../../interfaces/catalog";
 import {Store} from "@ngrx/store";
-import {
-  filteredProductsSelector,
-} from "../../reducers/filters/filters";
-import {pageIndexSelector, setPaginatedProducts, updatePage} from "../../reducers/pagination/pagination";
 import * as _ from "lodash";
+import {filteredProductsSelector} from "../../store/selectors/filters";
+import {setPaginatedProducts, updatePage} from "../../store/actions/pagination";
+import {pageIndexSelector} from "../../store/selectors/pagination";
 
 @Injectable({
   providedIn: "root"

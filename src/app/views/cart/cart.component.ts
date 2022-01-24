@@ -1,8 +1,9 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Store} from "@ngrx/store";
-import {cartProductsSelector, changeExistingProductCount, removeFromCart, submitOrder} from "../../reducers/cart/cart";
 import {Product} from "../../interfaces/catalog";
 import {Subscription} from "rxjs";
+import {cartProductsSelector} from "../../store/selectors/cart";
+import {changeExistingProductCount, removeFromCart, submitOrder} from "../../store/actions/cart";
 
 @Component({
   selector: 'app-cart',

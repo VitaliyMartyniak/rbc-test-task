@@ -1,8 +1,9 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {clearSnackbarText, snackbarTextSelector} from "../../reducers/notifications/notifications";
 import {Store} from "@ngrx/store";
 import {Subscription} from "rxjs";
+import {clearSnackbarText} from "../../store/actions/notifications";
+import {snackbarTextSelector} from "../../store/selectors/notifications";
 
 @Component({
   selector: 'app-snackbar',

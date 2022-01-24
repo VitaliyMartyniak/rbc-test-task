@@ -1,10 +1,10 @@
 import {ActionReducerMap, MetaReducer} from "@ngrx/store";
 import {environment} from "../../environments/environment";
-import {paginationReducer, PaginationState} from "./pagination/pagination";
-import {catalogReducer, CatalogState} from "./catalog/catalog";
-import {filtersReducer, FiltersState} from "./filters/filters";
-import {cartReducer, CartState} from "./cart/cart";
-import {notificationsReducer, NotificationsState} from "./notifications/notifications";
+import {paginationReducer, PaginationState} from "./reducers/pagination";
+import {catalogReducer, CatalogState} from "./reducers/catalog";
+import {filtersReducer, FiltersState} from "./reducers/filters";
+import {cartReducer, CartState} from "./reducers/cart";
+import {notificationsReducer, NotificationsState} from "./reducers/notifications";
 
 export interface State {
   pagination: PaginationState;

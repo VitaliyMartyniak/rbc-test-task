@@ -1,9 +1,10 @@
 import { Injectable } from "@angular/core";
 import {Store} from "@ngrx/store";
 import {Price, Product} from "../../interfaces/catalog";
-import {pricesSelector, productTypeSelector, searchSelector, setFilteredProducts} from "../../reducers/filters/filters";
-import {catalogProductsSelector} from "../../reducers/catalog/catalog";
 import {PaginationService} from "../pagination/pagination.service";
+import {catalogProductsSelector} from "../../store/selectors/catalog";
+import {pricesSelector, productTypeSelector, searchSelector} from "../../store/selectors/filters";
+import {setFilteredProducts} from "../../store/actions/filters";
 
 @Injectable({
   providedIn: "root"

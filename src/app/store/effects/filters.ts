@@ -1,7 +1,7 @@
 import {Injectable} from "@angular/core";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
-import {debounceInput, setSearch} from "./filters";
 import {debounceTime, map} from "rxjs";
+import {debounceInput, setSearch} from "../actions/filters";
 
 @Injectable()
 export class FiltersEffects {
